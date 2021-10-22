@@ -21,11 +21,19 @@ h3{
   }
 
 #btn{
-  background-color: white;
-  margin-top:10px;
-  border:none;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border-style: hidden;
+  color: black;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.849);
 }
-
+#btn:hover{
+  box-shadow: rgb(255, 255, 255) 0px 0px 5px 2px;
+}
 @media screen and (max-width: 732px){
   
       #form {

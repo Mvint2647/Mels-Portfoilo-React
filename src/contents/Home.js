@@ -13,8 +13,10 @@ function Home() {
         }
         if (currentInfo === 'Portfolio') {
             return <Portfolio />
+            
         }
         return <Contact/>
+        
     };
 
     const handlePageChange = (page) => setCurrentInfo(page);
@@ -22,7 +24,13 @@ function Home() {
         <div>
             <Header currentInfo={currentInfo} handlePageChange={handlePageChange} />
             {renderInfo()}
-            <Footer />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <Footer/>
         </div>
     );
 }
