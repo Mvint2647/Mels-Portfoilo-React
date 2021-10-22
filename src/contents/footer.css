@@ -1,0 +1,27 @@
+#social{
+  padding: 10px;
+  list-style: row;
+  margin: 0 15px;
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 30px;
+  transition: 0.5s;
+}
+#social::before {
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+#social:hover {
+  box-shadow: 0 0 10px #ffffff;
+}

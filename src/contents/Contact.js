@@ -1,15 +1,21 @@
-import React, { Component } from 'react';
-import Social from '../components/Social';
-class Contact extends Component {
-    render() {
-        return (
-            <div className="condiv">
-            <h1 className="subtopic">Contact Me</h1>
-            <h3>Email  :   Melissavinny1133@gmail.com</h3>
-            <Social />
+import React from 'react';
+import './contact.css';
+
+function Contact() {
+    return (
+        <form id="form" className="container col-3 text-white text-center">
+            <div id="formbox">
+                <h3>Contact Me</h3>
+                <label for="exampleInputEmail" className="form-label">Name</label>
+                <input type="email" className="form-control" id="exampleInputEmail" aria-describedby="emailHelp" />
             </div>
-            )
-        }
-    }
-    
-    export default Contact
+            <div className="formbox">
+                <label for="exampleInputName" className="form-label">Email address</label>
+                <input type="Name" class="form-control" id="exampleInputName" />
+            </div>
+            <button type="submit" id="btn">Submit</button>
+        </form>
+    );
+}
+
+export default Contact;

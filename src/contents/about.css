@@ -1,0 +1,21 @@
+#aboutStyle {
+    display: block;  
+    text-align: center;
+    justify-content: center;
+    color:#ffffff;
+    padding-left: 20%;
+    padding-right: 20%; 
+    margin-top: 7%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+#Mybusiness {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 5px black dotted;
+  }
+
+  

@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './about.css';
+import Icon from '../../src/images/Business-Card.jpg';
 
 
-class About extends Component {
-    render() {
-        return (
-            <div className="condiv">
-            <h1 className="subtopic">About Me</h1>
-            <h4>Welcome,</h4>
-            <h1>I am Melissa Vint</h1>
-            <h3>Full Stack Web <u>Developer</u> | UI/UX <u> Graphic Designer</u></h3>
-            <br></br>        
+function About() {
+    return (
+        <section>
+            <div id="aboutStyle">
+            <h2>About Me</h2>
+            <img id="Mybusiness" src={Icon} alt="buisness-card"/>
             </div>
-            )
-        }
-    }
-    
-export default About
+        </section>
+    )
+};
+
+export default About;
