@@ -22,13 +22,13 @@ function Project() {
                   className='card-text text-decoration-none mx-4 fs-3'
                   href='frozen-atoll-30244.herokuapp.com/?id=6168b60b0ad1a20017cdc799'
                 >
-               
+                  Website
                 </a>
                 <a
                   className='card-text text-decoration-none mx-4 fs-3'
                   href='https://github.com/Mvint2647/Fitness-Tracker'
                 >
-                 
+                  GitHub
                 </a>
               </div>
             </div>
@@ -44,13 +44,13 @@ function Project() {
                   className='card-text text-decoration-none mx-4 fs-3'
                   href='gentle-everglades-44862.herokuapp.com'
                 >
-                 
+                  Website
                 </a>
                 <a
                   className='card-text text-decoration-none mx-4 fs-3'
                   href='https://github.com/Mvint2647/The-Note-Tracker'
                 >
-                
+                  GitHub
                 </a>
               </div>
             </div>
@@ -66,13 +66,13 @@ function Project() {
                   className='card-text text-decoration-none mx-4 fs-3'
                   href='https://mvint2647.github.io/Weather-App/'
                 >
-                  
+                  Website
                 </a>
                 <a
                   className='card-text text-decoration-none mx-4 fs-3'
                   href='https://github.com/Mvint2647/Weather-App/'
                 >
-                 
+                  GitHub
                 </a>
               </div>
             </div>
@@ -88,13 +88,13 @@ function Project() {
                   className='card-text text-decoration-none mx-4 fs-3'
                   href='https://github.com/jboybokungu/keyboard-battle'
                 >
-                  
+                  Website
                 </a>
                 <a
                   className='card-text text-decoration-none mx-4 fs-3'
                   href='https://github.com/jboybokungu/keyboard-battle'
                 >
-             
+                  GitHub
                 </a>
               </div>
             </div>
@@ -110,13 +110,13 @@ function Project() {
                   className='card-text text-decoration-none mx-4 fs-3'
                   href='https://kerilp.github.io/quick-fix-recipe/'
                 >
-                 
+                  Website
                 </a>
                 <a
                   className='card-text text-decoration-none mx-4 fs-3'
                   href='https://github.com/kerilp/quick-fix-recipe'
                 >
-                 
+                  GitHub
                 </a>
               </div>
             </div>
