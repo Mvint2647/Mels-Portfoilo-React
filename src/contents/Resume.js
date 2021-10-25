@@ -1,5 +1,5 @@
 import React from "react";
-
+import womanuser from "../images/womanuser.jpg"
 
 function Resume ({ currentInfo, handlePageChange }) {
   return (
@@ -8,6 +8,7 @@ function Resume ({ currentInfo, handlePageChange }) {
         <h1 id="name" className="col p-2">
           Melissa Vint
         </h1>
+  <img src= {womanuser} alt="womanuser"/>
         </header>
         </div>
   )}

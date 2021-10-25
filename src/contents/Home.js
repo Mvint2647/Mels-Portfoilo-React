@@ -4,11 +4,12 @@ import Portfolio from "./Portfolio";
 import Footer from "./Footer";
 import About from "./About";
 import Contact from "./Contact";
-
+import Resume from "./Resume";
+import Homepage from "./homepage";
 
 
 function Home() {
-  const [currentInfo, setCurrentInfo] = useState("Home");
+  const [currentInfo, setCurrentInfo] = useState("Homepage");
   const renderInfo = () => {
     if (currentInfo === "About") {
       return <About />;
@@ -17,8 +18,13 @@ function Home() {
     if (currentInfo === "Portfolio") {
       return <Portfolio />;
     
+  } if (currentInfo === "Contact") {
+    return <Contact />;
+
+  } if (currentInfo === "Resume") {
+    return <Resume />;
   }
-    return <Contact />; 
+    return <Homepage />; 
 }
 
 
