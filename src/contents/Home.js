@@ -6,6 +6,7 @@ import About from "./About";
 import Contact from "./Contact";
 
 
+
 function Home() {
   const [currentInfo, setCurrentInfo] = useState("Home");
   const renderInfo = () => {
@@ -17,9 +18,8 @@ function Home() {
       return <Portfolio />;
     
   }
-    return <Contact />;
+    return <Contact />; 
 }
-  
 
 
 const handlePageChange = (page) => setCurrentInfo(page);

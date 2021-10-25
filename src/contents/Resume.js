@@ -1,0 +1,15 @@
+import React from "react";
+
+
+function Resume ({ currentInfo, handlePageChange }) {
+  return (
+    <div>
+      <header class="row" className="header row">
+        <h1 id="name" className="col p-2">
+          Melissa Vint
+        </h1>
+        </header>
+        </div>
+  )}
+
+  export default Resume;

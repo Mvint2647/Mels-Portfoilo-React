@@ -38,8 +38,16 @@ function Header({ currentInfo, handlePageChange }) {
           >
             Contact
           </a>
-          <div id="text"
-           Resume></div>
+          <a
+            id="text"
+            href="#Resume"
+            onClick={() => handlePageChange("Resume")}
+            className={
+              currentInfo === "Resume" ? "nav-link active" : "nav-link"
+            }
+          >
+            Resume
+          </a>
         </nav>
         
       </header>
