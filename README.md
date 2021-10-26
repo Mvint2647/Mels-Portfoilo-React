@@ -76,6 +76,10 @@ Checkout my GitHub [profile](https://github.com/mvint2647)
 Please feel free to email at: <Melissavinny1133@gmail.com>
 
 ## Screenshots
-![mels-portfolio](ss14.png)
 ![mels-portfolio](ss13.png)
+#
 ![mels-portfolio](ss12.png)
+#
+![mels-portfolio](ss11.png)
+#
+![mels-portfolio](port.gif)

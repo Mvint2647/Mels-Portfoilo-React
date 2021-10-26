@@ -1,16 +1,18 @@
 import React from "react";
-import womanuser from "../images/womanuser.jpg"
+import "./Resume";
+import { Card, CardTitle, CardText } from "reactstrap";
 
-function Resume ({ currentInfo, handlePageChange }) {
+function Resume() {
   return (
-    <div>
-      <header class="row" className="header row">
-        <h1 id="name" className="col p-2">
-          Melissa Vint
-        </h1>
-  <img src= {womanuser} alt="womanuser"/>
-        </header>
-        </div>
-  )}
+    <section>
+      <Card className="text-dark">
+        <CardTitle><h1>Resume/Credentials</h1></CardTitle>
+        <CardText><h5>Associates in Graphic Design </h5></CardText>
+        <CardText><h5>Certified Full Stack Web Developer From UNC Charlotte </h5></CardText>
+        <CardText></CardText>
+      </Card>
+    </section>
+  );
+}
 
-  export default Resume;
+export default Resume;
