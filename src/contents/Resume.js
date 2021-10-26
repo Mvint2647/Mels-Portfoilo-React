@@ -9,6 +9,7 @@ function Resume() {
         <CardTitle><h1>Resume/Credentials</h1></CardTitle>
         <CardText><h5>Associates in Graphic Design </h5></CardText>
         <CardText><h5>Certified Full Stack Web Developer From UNC Charlotte </h5></CardText>
+        <CardText><h6>Proficient : CSS, HTML, JAVASCRIPT,  REACT, SQL/MONGO, and ect. </h6></CardText>
         <CardText></CardText>
       </Card>
     </section>
