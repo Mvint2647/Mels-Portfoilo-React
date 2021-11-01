@@ -75,7 +75,10 @@ Checkout my GitHub [profile](https://github.com/mvint2647)
 
 Please feel free to email at: <Melissavinny1133@gmail.com>
 
-## Screenshots
+## Screenshots/ Link to live site
+
+[https://blooming-temple-17915.herokuapp.com/]
+
 ![mels-portfolio](ss13.png)
 
 ![mels-portfolio](ss12.png)
