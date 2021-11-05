@@ -6,25 +6,24 @@ import IconBH from "../images/bh.png";
 
 function Footer() {
   return (
-  <footer className="footer">
-      <a href="https://www.linkedin.com/in/melissa-v-769255105/">
-        <img id="social" src={IconLN} alt="linkdin" />
-      </a>
+    <div class="element">
+      <footer className="footer">
+        <a href="https://www.linkedin.com/in/melissa-v-769255105/">
+          <img id="social" src={IconLN} alt="linkdin" />
+        </a>
 
-      <a href="https://github.com/Mvint2647">
-        <img id="social" src={IconGH} alt="linkdin" />
-      </a>
+        <a href="https://github.com/Mvint2647">
+          <img id="social" src={IconGH} alt="linkdin" />
+        </a>
 
-      <a href="https://www.behance.net/Melissasta10d9">
-        <img id="social" src={IconBH} alt="linkdin" />
-      </a>
-            
-    <h6> © 2021 MelsPortfolioReact</h6>
-    </footer>
+        <a href="https://www.behance.net/Melissasta10d9">
+          <img id="social" src={IconBH} alt="linkdin" />
+        </a>
+
+        <h6> © 2021 MelsPortfolioReact</h6>
+      </footer>
+    </div>
   );
 }
-
- 
-
 
 export default Footer;
